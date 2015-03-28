@@ -8,3 +8,10 @@ TempleteはPDFやXeLaTeXでエクスポートする時に適用されるデザ�
 [1]: <http://www.texts.io/support/0007/>
 
 日本語への対応作業は別項で解説します。
+
+xelatexファイルの置き場所
+-------------------------
+
+-   Mac OSの場合、`~/Library/Application Support/Texts/`
+
+-   Windowsの場合、`%LOCALAPPDATA%\Texts\`

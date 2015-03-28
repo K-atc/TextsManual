@@ -4,14 +4,47 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <title></title>
+  <title>Textsの概要</title>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
   <link rel="stylesheet" href="./public/stylesheet/qiita-base.css">
   <link rel="stylesheet" href="./public/stylesheet/qiita-detail.css">
   <link rel="stylesheet" href="./public/stylesheet/markdown.css">
 </head>
 <body class="markdownContent" style="width:100%; max-width:820px; margin:50px auto;">
-  
+  <h1>Textsの概要</h1>
+
+<p>Textsは <a href="http://www.texts.io/">texts.io</a>
+の高機能テキストエディタです。Markdownファイルの編集を行え、編集方法はWYSIWYG（見た目と出力が同じ）寄りな感じです。なのでショートカットを多用しなければなりませんが、慣れればMarkdownを直でいじるよりもミスが少なくなります。</p>
+
+<h2>基本機能</h2>
+
+<p>対応する機能を Welcome To Texts の編集画面で示します。</p>
+
+<p><img src="img/WelcomeToTexts.jpg" alt="" /></p>
+
+<p>TeXでよく使う機能はありそうなので、TeXで一から書くよりも、ここである程度書いておいてTeXに変換すると捗りそうですね（labelなどが無いのが辛いですが…）。少なくとも（演習の）レポートや進捗報告や日常的なメモには十分な破壊力を持ちます。</p>
+
+<h2>エクスポート</h2>
+
+<p>サンプルとして
+<a href="sample.md">sample.md</a>（例の数学公式集+α）を用意しました。これをエクスポートしてみます。</p>
+
+<p><a href="http://www.texts.io/samples/">他の出力方法</a>はありますが、ここではPDFに絞って紹介します。</p>
+
+<h2>PDF</h2>
+
+<p>変換後のファイルは <a href="sample.pdf">sample.pdf</a>
+です。画像に変換したものを下に貼ります。templeteをうまく作ればなかなか綺麗なドキュメントを出力することができます。</p>
+
+<p><img src="img/sample.jpg" alt="" /></p>
+
+<p>上のPDFを吐く時に使ったtemplete(Formal.xelatex)を<a href="https://gist.github.com/K-atc/d9177b2a00ebe83fb41d#file-formal-xelatex">gist</a>にあげておいたので参考にしてください。</p>
+
+<p> </p>
+
+<h2>地味に良いところ</h2>
+
+<p>Repeat Export があり、 <code>Ctrl+Shift+Alt+E</code>で前回のエクスポートをやり直すことができます。</p>
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
   <script src="./public/script/main.js"></script>
