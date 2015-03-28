@@ -6,7 +6,7 @@ html, body {
   background-color: #ddd;
   /*color: #fff;*/
   font-weight: normal;
-  font-size: 14;
+  font-size: 14px;
   line-height: 1.36;
   /* firefoxでは%指定でのmin-height/max-heightが効かなくなるので明示的な高さ指定が必要 */
   height: 100%;

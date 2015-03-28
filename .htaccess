@@ -1,0 +1,8 @@
+<IfModule mod_deflate.c>
+SetOutputFilter DEFLATE
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+SetEnvIfNoCase Request_URI \.(?:gif|jpg|jpeg|png|ico)$ no-gzip dont-vary
+</IfModule>
+
