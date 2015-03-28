@@ -64,7 +64,6 @@ a {
 header {
   margin-bottom: -0.36em;
   padding: 0.1em 0 0 1em;
-  /*height: 3em;*/
   background-color: #1A1A1A;
   position: relative;
   z-index: 1000;
@@ -101,8 +100,11 @@ header a {
 }
 
 #view {
+  margin-top: 0.36em;
   width: 80%;
   height: 100%;
+  height: calc(100% - 3.51em);
+  position: relative;
   top: 0;
   right: 0;
 }
@@ -114,4 +116,11 @@ header a {
 
 #view-raw {
   display: none!important;
+}
+
+#share {
+  position: absolute;
+  top: 1.2em;
+  right: 0;
+  width: 105px;
 }

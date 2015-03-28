@@ -10,9 +10,7 @@ etc.)にも対応しているためとてもパワフルです。このマニュ
 
 [1]: <http://texts.io>
 
-[^1]: Webでの表示は拙作の[Kiita][2]をベースにしています。
-
-[2]: <https://github.com/K-atc/Kiita>
+[^1]: Webでの表示は拙作の<a href="https://github.com/K-atc/Kiita" target=_blank>Kiita</a>を利用しています。
 
 しかしながら、本家のドキュメンテーションがあまりにもお粗末なため初見殺しなアプリケーションとなってしまっているのが現状です。このマニュアルによってTexts教の勢力拡大の一助となれば幸いです。
 
