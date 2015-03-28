@@ -1,0 +1,42 @@
+<!DOCTYPE html>		
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>PDFのExportで日本語対応させる</title>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+  <link rel="stylesheet" href="./public/stylesheet/qiita-base.css">
+  <link rel="stylesheet" href="./public/stylesheet/qiita-detail.css">
+  <link rel="stylesheet" href="./public/stylesheet/markdown.css">
+</head>
+<body class="markdownContent" style="width:100%; max-width:820px; margin:50px auto;">
+  <h1>PDFのExportで日本語対応させる</h1>
+
+<p> </p>
+
+<p>デフォルトのままPDFでエクスポートすると日本語が□で出てきてしまいます。</p>
+
+<p><img src="img/notCJK.png" alt="" /></p>
+
+<p> </p>
+
+<p><a href="http://www.texts.io/support/0007/">本家でも書かれています</a>が、この問題を解決するためにCJK向けのtempleteを使用するようにします。本家からダウンロードしたものは以下のフォルダに置きます。</p>
+
+<ul>
+<li><p>Mac OSの場合、<code>~/Library/Application Support/Texts/</code></p></li>
+<li><p>Windowsの場合、<code>%LOCALAPPDATA%\Texts\</code></p></li>
+</ul>
+
+<p>ダウンロードしたtempleteはExportした時に選択できるようになります。</p>
+
+<p><img src="img/templete.png" alt="" /></p>
+
+<p> </p>
+
+<p>が、画像がページいっぱいに表示されないなど問題を抱えています（defaultでは書かれいているものがこちらに書かれていない(ﾟДﾟ)）。フォントは日本語、欧文を別々で指定できます。作者のCJK.xelatexを<a href="https://gist.github.com/K-atc/d9177b2a00ebe83fb41d">gist</a>に上げてるのでこれを参考にしてください。</p>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <script src="./public/script/main.js"></script>
+</body>
+</html>
